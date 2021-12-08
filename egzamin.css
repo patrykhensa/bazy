@@ -1,0 +1,81 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+
+.jeden{
+  position:fixed;
+
+
+  color: white;
+  text-align: center;
+  width:100%;
+  height: auto;
+  background-color: green;
+
+}
+.wrapper{
+  height: 400px;
+  overflow: scroll;
+}
+.dwa{
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: darkgreen;
+  width:auto;
+  height: 20px;
+}
+.kropki{
+  margin: 40px;
+}
+.trzy{
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: darkgreen;
+  width:auto;
+  height: 20px;
+}
+.obraz1{
+  float:left;
+
+}
+img{
+  margin: 20px;
+  border-radius: 50%;
+}
+.opis{
+  margin: 20px;
+  float:left;
+}
+
+.hr{
+  width:100%;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.obraz2{
+  float:left;
+
+}
+
+.opis2{
+  margin: 20px;
+  float:left;
+}
+.stopka{
+  position:fixed;
+  float: bottom;
+
+
+  color: white;
+  text-align: center;
+  width:100%;
+  height: auto;
+  background-color: green;
