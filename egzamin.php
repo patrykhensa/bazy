@@ -42,7 +42,7 @@
             echo '<img src="./tw.jpg" alt="przyjaciel">';
             //echo '<div class="opis"><h1>Siema</h1><br><p>co tam</p></div>'
 
-
+//bghjghjfghjfg
 
 
             //echo "<li>".$rekord["id"]."&nbsp;".$rekord["nazwa"]."&nbsp;".$rekord["wystepowanie"]."</li>";
