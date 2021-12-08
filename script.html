@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <p>Podaj swoje imię</p>
+
+    <form id="formularz">
+      <input id="imie" type="text" name="imie" value="">
+      <input type="button" name="submit" value="ok" onclick="funkcja()">
+    </form>
+
+      <p>witaj <span class="podmiana">______</span></p>
+
+
+
+    <script>
+
+      function funkcja(){
+        //alert("sds");
+        const uae = document.getElementById ("imie").value;
+        const uuu = document.querySelector (".podmiana");
+        uuu.innerHTML = "<span>"+uae+"</span>";
+
+      }
+
+
+    </script>
+  </body>
+</html>
