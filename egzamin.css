@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   overflow: hidden;
+  font-family: Georgia;
 }
 
 
@@ -13,23 +14,26 @@
   text-align: center;
   width:100%;
   height: auto;
-  background-color: green;
+  background-color: #005B4F;
 
 }
 .wrapper{
   height: 400px;
   overflow: scroll;
+  background-color: #e7e2ff;
 }
 .dwa{
   margin-top: 50px;
   margin-left: 20px;
   margin-right: 20px;
   padding: 20px;
-  background-color: darkgreen;
+  background-color: #00897B;
   width:auto;
   height: 20px;
+  text-align: center;
 }
 .kropki{
+
   margin: 40px;
 }
 .trzy{
@@ -37,12 +41,14 @@
   margin-left: 20px;
   margin-right: 20px;
   padding: 20px;
-  background-color: darkgreen;
+  background-color: #00897B;
   width:auto;
   height: 20px;
+  text-align: center;
 }
 .obraz1{
   float:left;
+  width: 20%;
 
 }
 img{
@@ -58,24 +64,28 @@ img{
   width:100%;
   margin-left: 20px;
   margin-right: 20px;
-
-}
-.obraz2{
-  float:left;
-
+  clear:both;
 }
 
-.opis2{
-  margin: 20px;
-  float:left;
-}
 .stopka{
-  position:fixed;
-  float: bottom;
 
-
+  /*float: bottom;*/
   color: white;
   text-align: center;
   width:100%;
-  height: auto;
-  background-color: green;
+  background-color: #005B4F;}
+
+.lewo{
+  float:left;
+  width: 50%;
+}
+.prawo{
+  text-decoration: none;
+
+
+  float:right;
+  width: 50%;
+}
+.prawo a:link{
+  color:white;
+}

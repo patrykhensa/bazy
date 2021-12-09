@@ -10,16 +10,16 @@
 
     <div class="jeden"><h1>napis</h1></div>
     <div class="wrapper">
-      <div class="dwa">mojecos</div>
+      <div class="dwa"><h2>mojecos</h2></div>
       <div class="kropki">
 
 
-      <ul>
-        <li>jeden</li>
+
+        <li>jeden <a href="#">dfghdfhdfhjdfgjh</a></li>
         <li>dwa</li>
-      </ul>
+
       </div>
-      <div class="trzy">mojeznaj</div>
+      <div class="trzy"><h2>mojeznaj</h2></div>
       <?php
       $server = "localhost";
       $user = "root";
@@ -33,39 +33,33 @@
       exit();
 
       }
-      $zapytanie1 = 'SELECT `id`,`nazwa`,`wystepowanie`,`styl_zycia`  FROM `ryby` WHERE 1 ;';
+      $zapytanie1 = 'SELECT `id` , `marka`, `model` FROM `samochody` WHERE 1 ;';
       $wynik1 = $mysqli->query($zapytanie1);
 
       if ($wynik1->num_rows > 0){
           while ($rekord = $wynik1->fetch_assoc()){
 
-            echo '<img src="./tw.jpg" alt="przyjaciel">';
+          //  echo '<img src='.$rekord["id"].'.jpg alt="przyjaciel">';
+
             //echo '<div class="opis"><h1>Siema</h1><br><p>co tam</p></div>'
+          echo ' <div class="obraz1">
 
-//bghjghjfghjfg
+            <img src='.$rekord["id"].'.png alt="przyjaciel"></div>
+            <div class="opis"><h1>'.$rekord["marka"].'</h1><br><p>'.$rekord["model"].'</p></div>
+            <div class="hr"><hr></div>
+             ';
 
 
-            //echo "<li>".$rekord["id"]."&nbsp;".$rekord["nazwa"]."&nbsp;".$rekord["wystepowanie"]."</li>";
+
+
           }
         }
         ?>
+      </div>
+        <div class="stopka">
+          <div class="lewo">00000000</div>
+          <div class="prawo"><a class="a" href="ja@portal.pl">napisz</a></div>
+      </div>
 
-
-
-      <!--div class="obraz1">
-
-      <img src="100.png"></div>
-      <div class="opis"><h1>Siema</h1><br><p>co tam</p></div>
-      <div class="hr"><hr></div>
-      <div class="obraz2">
-      <img src="100.png"></div>
-      <div class="opis2"><h1>No spoczko</h1><br><p>a co u ciebie? XDD</p></div>
-
-    </div-->
-
-    <div class="stopka">stopka
-
-
-    </div>
   </body>
 </html>
